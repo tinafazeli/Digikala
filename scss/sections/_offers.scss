@@ -1,0 +1,55 @@
+@use '../custom' as *;
+.body{
+    font-family: 'Times New Roman', Times, serif;
+};
+
+.offer{
+    background: linear-gradient(to right,rgb(#92fa0b,0.95),rgb(#2cd40a,0.95));
+    margin-top: 50px;
+    border-radius: 0.8em;
+    margin-left: 20px;
+    margin-right: 20px;
+    .row{
+        .tasvir{
+            span{
+                font-family: 'Gloock', serif;
+                font-size: 16px;
+                font-weight: bold;
+                color: #fff;
+                margin-right: 60px;
+            };
+            img{
+                margin-right: 40px;
+                font-size: 6px;
+            };
+            .btn{
+                margin-right: 40px;
+                &:hover{
+                    background: linear-gradient(to right,rgb(#92fa0b,0.95),rgb(#2cd40a,0.95));
+                    color: #fff;
+                }
+            };
+
+        };
+        .second-slider-container{
+            padding: 10px;
+            .product-card{
+                height: 300px;
+                background: #fff;
+                border-radius: 10px;
+                padding: 10px;
+                plus{
+                    svg{
+                        color: red;
+                    };
+                };
+                .price{
+                    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    font-weight: bold;
+                    margin-bottom: 90px;
+                    line-height: 13px;
+                };
+            };
+        };
+    }; 
+};

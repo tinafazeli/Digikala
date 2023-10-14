@@ -1,0 +1,42 @@
+@use '../custom' as *;
+.body{
+    font-family: 'Times New Roman', Times, serif;
+};
+.navbar{
+    padding: 0%;
+    form{
+        input{
+            background-color: rgba(144, 144, 145, 0.274);
+        };
+    };
+    .listitem{
+        text-decoration: none;
+        font-size: smaller;
+        justify-content: space-between;
+    };
+
+    .listitem:hover{
+        text-decoration: underline;
+        text-decoration-color: red;
+    };
+    .btn:hover{
+        background-color: #fff;
+        svg{
+            color: black;
+        };
+        span{
+            color: black;
+        };
+    };
+};
+
+.line {
+  border-left: 1px solid rgb(133, 133, 133);
+  height: 25px;
+  margin-top: 15px;
+};
+.lin {
+  border-left: 1px solid rgb(133, 133, 133);
+  height: 20px;
+  margin-top: 10px;
+};

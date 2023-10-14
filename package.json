@@ -1,0 +1,25 @@
+{
+  "name": "digikala",
+  "version": "1.0.0",
+  "description": "Digikala",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:assets/css"
+  },
+  "keywords": [
+    "digikala",
+    "Digikala",
+    "DigiKala"
+  ],
+  "author": "Tina Fazeli",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.62.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "autoprefixer": "^10.4.14",
+    "bootstrap": "^5.3.0-alpha3",
+    "postcss-cli": "^10.1.0"
+  }
+}

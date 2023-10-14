@@ -1,0 +1,61 @@
+@use '../custom' as *;
+.body{
+    font-family: 'Times New Roman', Times, serif;
+};
+
+.footer{
+    .container{
+        .row{
+            a{
+                text-decoration: none;
+                color: gray;
+                svg{
+                    margin-left: 20px;
+                }
+            };
+            h5{
+                font-weight: bold;
+            };
+        };
+    };
+};
+
+
+.qualities{
+    border-top: 1px solid gray;
+    .container{
+        .logo-row{
+            height: max-content;
+            .logo-caption{
+                font-size: 1rem;
+                color: gray;
+            }
+
+        }
+        .row{
+            a{
+                text-decoration: none;
+                color: rgb(37, 36, 36);
+                font-size: 11px;
+            }
+        }
+        
+    }
+    
+}
+.up-btn{
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    width: 50px;
+    height: 50px;
+    color: gray;
+    background-color: white;
+    border: 1px solid grey;
+    position: absolute;
+    left: 5%;
+    &:hover{
+        border: 1px solid #ef4056;
+        background-color:#ffeff1;
+        color: #ef4056;
+    }
+
+}

@@ -1,0 +1,30 @@
+@use '../custom' as *;
+.body{
+    font-family: 'Times New Roman', Times, serif;
+};
+
+.product{
+    .container{
+        .row{
+            .col-12{
+                img{
+                    width: 100%;
+                    height: 80%;
+                };
+            };
+        };
+    };
+};
+
+.products{
+    .container{
+        .row{
+            .col-6{
+                img{
+                    width: 100%;
+                    height: 110%;
+                };
+            };
+        };
+    };
+};

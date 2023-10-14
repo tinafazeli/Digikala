@@ -1,0 +1,20 @@
+@use "custom";
+
+// IMPORT THE COMPONENT
+
+@use 'components/animations';
+@use 'components/buttons';
+@use 'components/mixins';
+@use 'components/typography';
+
+// IMPORT THE SECTIONS 
+
+@use 'sections/navbar';
+@use 'sections/supermarket';
+@use 'sections/offers';
+@use 'sections/products';
+@use 'sections/sugest';
+@use 'sections/bestselling';
+@use 'sections/mostfrequent';
+@use 'sections/post';
+@use 'sections/footer';
